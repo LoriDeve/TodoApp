@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andorid="http://schemas.android.com/aapt">
+
+    <item android:gravity="top">
+        <color android:color="@color/white"/>
+        <shape andorid:shape="rectangle">
+            <size android:height="1.0dip"/>
+            <solid android:color="@color/solid_red" />
+        </shape>
+    </item>
+</layer-list>

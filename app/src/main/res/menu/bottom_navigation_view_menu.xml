@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andorid="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/todaySummary"
+        android:icon="@drawable/ic_outline_summarize_24"
+        android:title="@string/menu_today_item"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/upcomingSummary"
+        android:icon="@drawable/ic_outline_calendar_month_24"
+        android:title="@string/menu_next_item"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="@string/menu_settings_item"
+        android:visible="true"/>
+
+</menu>

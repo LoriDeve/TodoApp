@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69876449923",
+    "project_id": "primaprova-a464f",
+    "storage_bucket": "primaprova-a464f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69876449923:android:7031da93ca0eacafcd11b6",
+        "android_client_info": {
+          "package_name": "it.units.primaprova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69876449923-j4259lvkmp4ukmeqde67e70p6tkipq3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlMGb8ctBLbHvGDKHlk4x53fWbmL4e2As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69876449923-j4259lvkmp4ukmeqde67e70p6tkipq3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

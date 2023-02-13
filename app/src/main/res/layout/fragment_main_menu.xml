@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:paddingVertical="40dp">
+
+        <TextView
+            android:id="@+id/username_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/menu_username"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="16pt"
+            android:layout_marginHorizontal="20dp"
+            android:paddingHorizontal="4dp"
+            android:layout_weight="0.6">
+        </TextView>
+
+        <TextView
+            android:id="@+id/user_email_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:text="@string/menu_email"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:layout_marginHorizontal="20dp"
+            android:paddingHorizontal="4dp"
+            android:layout_weight="0.4">
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dark_gray">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:id="@+id/logout_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/logout_button"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/solid_red"
+            android:textSize="10pt"
+            android:layout_marginHorizontal="20dp"
+            android:paddingHorizontal="4dp"
+            android:layout_weight="0.6"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

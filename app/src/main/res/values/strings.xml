@@ -1,0 +1,63 @@
+<resources>
+    <!-- Generiche -->
+    <string name="app_name">TodoApp</string>
+
+    <!-- MainActivity -->
+    <string name="login_password_hint">Password</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_welcome_msg">Todo App</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Registrati</string>
+    <string name="empty_email">Email mancante</string>
+    <string name="verification_required_login">La tua mail non è ancora verificata. Usa il
+        pulsante Verifica per inviare una mail di verifica</string>
+
+    <!-- RegisterActivity -->
+    <string name="username_hint">Username</string>
+    <string name="create_button">Registrati</string>
+    <string name="verify_button">Verifica</string>
+    <string name="login_repeat_password_hint">Ripeti password</string>
+    <string name="new_password_short">Minimo 6 caratteri</string>
+    <string name="password_not_match">Le password non coincidono</string>
+    <string name="valid_username">Campo vuoto</string>
+    <string name="valid_email">Inserisci un indirizzo email valido</string>
+    <string name="verification_sent_hint">Controlla la tua casella per la mail di verifica!</string>
+    <string name="email_verified_hint">Email verificata. Torna indietro per eseguire il
+        login</string>
+    <string name="verification_sent_success_toast">Email di verifica inviata a:</string>
+    <string name="verification_sent_error_toast">Errore nell\'invio della verifica</string>
+
+    <!-- HomeActivity -->
+    <string name="menu_today_item">Oggi</string>
+    <string name="menu_next_item">Prossimi</string>
+    <string name="menu_settings_item">Impostazioni</string>
+
+    <!-- AddTaskBottomSheetFragment -->
+    <string name="add_task_title">Nuovo task</string>
+    <string name="new_task_title">Titolo</string>
+    <string name="new_task_description">Descrizione</string>
+    <string name="save_task_button">Salva</string>
+    <string name="add_task_empty_title">Inserisci un titolo</string>
+    <string name="add_task_empty_descr">Inserisci una descrizione</string>
+    <string name="pick_date_button">Ora</string>
+    <string name="update_task_button">Aggiorna</string>
+    <string name="update_task_title">Aggiorna task</string>
+    <string name="toast_task_created">Task creato</string>
+    <string name="toast_task_create_error">Errore nella creazione del task</string>
+    <string name="toast_task_updated">Task aggiornato</string>
+    <string name="toast_task_update_error">Errore nell\'aggiornamento del task</string>
+    <string name="toast_task_deleted">Task eliminato</string>
+    <string name="toast_task_delete_error">Errore nell\'eliminazione del task</string>
+
+    <!-- MainMenuFragment -->
+    <string name="logout_button">Logout</string>
+    <string name="menu_username">Username</string>
+    <string name="menu_email">esempio@gmail.com</string>
+    <string name="resource_not_found">Not found</string>
+
+    <!-- LogoutDialogFragment -->
+    <string name="logout_alert_message">Sei sicuro di voler uscire?</string>
+    <string name="logout_confirm_button">Logout</string>
+    <string name="logout_cancel_button">Cancella</string>
+    <string name="logout_alert_title">Logout</string>
+</resources>
